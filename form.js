@@ -50,7 +50,7 @@ $(function()
         });
         
 
-                    $.ajax({
+            $.ajax({
                 type: "POST",
                 url: 'handler.php',
                 data: $form.serialize(),
